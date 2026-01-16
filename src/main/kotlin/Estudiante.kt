@@ -8,7 +8,7 @@ class Estudiante(private val nombre: String) {
             }
         }
 
-    // Le he cambiado el nombre porque generaba un conflicto
+    //Le he cambiado el nombre porque generaba un conflicto
     fun asignarNota(valor: Double) {
         nota = valor
     }
